@@ -32,3 +32,7 @@ jobs:
         run: |
           forge test -vvv
         id: test
+
+      - name: Script
+        run: |
+          forge script ./script/Counter.s.sol
